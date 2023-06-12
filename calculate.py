@@ -4,14 +4,15 @@
 def _calculate_ (a,b) :
 
     add = a+b
+    sub = a-b
     
 
 
-    return add
+    return add,sub
 
 
 
 
-add = _calculate_(6,2)
+add,sub = _calculate_(6,2)
 
 print (add)
